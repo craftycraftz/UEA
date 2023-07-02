@@ -1,0 +1,254 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: monospace;
+	font-size: 0.95em;
+}
+
+a
+{
+	color: #014687;
+	font-size: 1em;
+	text-decoration: none;
+	font-family: monospace;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+p
+{
+	font-family: serif;
+	font-size: 1.15em;
+	margin: 0.5em;
+}
+
+h2
+{
+	font-family: monospace;
+	font-size: 2em;
+	padding: 7px;
+	margin: 0;
+	text-align: left;
+	background-color: none;
+	border-bottom: 3px solid #1e7d37;
+	border-top: 3px solid #1e7d37;
+}
+
+li p
+{
+	font-family: serif;
+	font-size: 1.15em;
+	margin: 0;
+	margin-bottom: 0.3em;
+}
+
+.header
+{
+	width: 100%;
+	height: 8vw;
+	background-color: #2bb549;
+	border-bottom: 1vw solid #ffdc5e;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.header h1
+{
+	font-family: Daray;
+	font-weight: 300;
+	font-size: 8vw;
+	float: left;
+	margin: 0;
+	margin-left: auto;
+	margin-left: 1vw;
+	width: 90%;
+}
+
+.video-card-icon
+{
+	height: 90%;
+	margin-right: 0.5vw;
+	margin-top: 0.5vw;
+	float: right;
+}
+
+/*
+#f5f5f5
+#d3dff2
+
+https://pikabu.ru/story/videopamyat_vram_i_skolko_eyo_nuzhno_3505611
+https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C#%D0%A3%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE
+https://studylib.ru/doc/4766054/interfejsy-videokart
+
+
+*/
+
+/*---------------------- Навигация ----------------------*/
+.nav-content-title
+{
+	margin-bottom: 0px;
+	margin-top: 0.6vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	padding: 0.2vw;
+	text-align: center;
+	background-color: #a1d4af;
+	border-top: 0.15vw groove #1e7d37;
+	border-bottom: 0.15vw groove #1e7d37;
+}
+
+.nav-content-list
+{
+	margin-bottom: 2em;
+	margin-left: 1.5em;
+	padding-left: 1.5em;
+	font-size: 1em;
+}
+
+.nav-links-title
+{
+	margin-bottom: 0px;
+	margin-top: 0.6vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	padding: 0.2vw;
+	text-align: center;
+	background-color: #a1d4af;
+	border-top: 0.15vw groove #1e7d37;
+	border-bottom: 0.15vw groove #1e7d37;
+}
+
+.nav-links-list
+{
+	margin-left: 1.5em;
+	padding-left: 1.5em;
+	font-size: 1em;
+}
+
+.nav-background
+{
+	position: fixed;
+	height: 100%;
+	width: 16%;
+	background-color: #b6e3c2;
+	z-index: 0;
+	border-right: 0.15vw solid #1e7d37;
+}
+
+.nav-panel
+{
+	font-size: 1.3vw;
+	left: 0px;
+	width: 16%;
+	float: left;
+	background-color: #b6e3c2;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	border-right: 0.15vw solid #1e7d37;
+}
+/* 
+#f5f5f5
+#d3dff2
+#d3dff2
+*/
+
+/* ----------------------  Контент  ----------------------*/
+
+.content-title
+{
+	text-align: center;
+	font-size: 2.3em;
+	background-color: #b6e3c2;
+	font-style: italic;
+}
+
+.content
+{
+	width: 74%;
+	right: 10%;
+	margin: 0 0 0 16%;
+	padding: 40px;
+	background-color: #f0fff4;
+	border-right: 0.15vw solid #1e7d37;
+}
+
+/* ----------------------  Блок - текст и картинка(и) сбоку  ----------------------*/
+
+.textpict-side-cont
+{
+	display: flex;
+	align-items: center;
+}
+
+.textpict-side-text-cont
+{
+	width: 70%;
+}
+
+.textpict-side-pict-cont
+{
+	vertical-align: middle;
+	width: 30%;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 1em;
+}
+
+.textpict-side-pict
+{
+	width: 100%;
+}
+
+/* ----------------------  Контент  ----------------------*/
+
+.side-background
+{
+	height: 100%;
+	width: 10%;
+	position: fixed;
+	z-index: -1;
+	right: 0px;
+	top: 0px;
+	background-color: #b6e3c2;
+}
+
+/*---------------------- Футер ----------------------*/
+
+.footer
+{
+	height: 100%;
+	position: fixed;
+	background-color: #e1f5e7;
+	border-right: 0.15vw solid #1e7d37;
+	width: 74%;
+	right: 10%;
+	left: 16%;
+	z-index: -1;
+	padding: 40px;
+}
+
+.def
+{
+	font-style: italic;
+	font-weight: 700;
+	font-size: 1em;
+	text-decoration: underline;
+}
+
+/*
+#c1e3ca
+#b0d9ba
+*/
+
+@font-face {
+font-family: Daray; 
+src: url("fonts/Daray.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+
+} 
